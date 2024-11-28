@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+  
+  .hero_img_card{
+    background: radial-gradient(50.89% 100% at 50.13% 100%, #000000 0%, rgba(0, 0, 0, 0.6) 49.5%, rgba(0, 0, 0, 0) 100%);
+  }
